@@ -1,0 +1,266 @@
+.content__bodyAccount--item {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 1px 1px 5px #f2f2f2, -1px -1px 5px #f2f2f2, 1px -1px 5px #f2f2f2, -1px 1px 5px #f2f2f2;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin: 20px 0;
+}
+
+.account__Userinfo--name {
+    padding: 10px 0;
+}
+
+.text--number {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: end;
+    padding: 5px;
+}
+
+.account__Userinfo--parameter--item {
+    width: 150px;
+    border: 2px dashed #7f7e7e;
+    margin: 10px ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bodyAccount__MenuList {
+    display: flex;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.bodyAccount__MenuList--item {
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.bodyAccount__MenuList--item:hover {
+    color: #818080;
+}
+
+.bodyAccount__MenuList--item .text-hr {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+}
+
+.updateAccount {
+    text-align: end;
+}
+
+.btn--Account {
+    padding: 0 12px;
+    border: 1px solid #dddcdc;
+    background-color: #dddcdc;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn--Account:hover {
+    background-color: #d2d2d2;
+
+}
+
+.information--item {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.content__bodyAccount--item-text {
+    padding-bottom: 20px;
+
+}
+
+.securityChange {
+    background-color: #e7e7e7;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.changeDisplay {
+    display: none;
+}
+
+.line {
+    border: 1px solid #d2d2d2;
+}
+
+.content__bodyAccount--groupBtn {
+    text-align: end;
+}
+
+.content__bodyAccount--groupBtn .row {
+    justify-content: end;
+}
+
+.groupBtn-item {
+    width: 100px;
+}
+
+.information--item-input {
+    width: 300px;
+    border-radius: 6px ;
+    border: 1px solid #7f7e7e;
+    padding: 3px 8px;
+}
+
+.information--item-input:focus {
+    width: 300px;
+    border-radius: 6px ;
+    border: 1px solid #7f7e7e;
+    padding: 3px 8px;
+}
+
+.NotificationAccount {
+    width: 500px !important;
+}
+
+.NotificationAccount-Success {
+    text-align: center;
+}
+
+.NotificationAccount-Success .content__tour--general {
+    min-height: 150px !important;
+}
+
+.NotificationAccount-Success .content__tour--general-heading {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.NotificationNone {
+    display: none;
+}
+
+.NotificationSuccess {
+    z-index: 999999;
+}
+
+.Notification-User{
+    justify-content: right !important;
+    margin: 0;
+    height: 100%;
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding: 60px 0 0;
+}
+
+.content__notification--list {
+    width: 100%;
+    height:100%;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.notificationUser-avatar {
+    background-color: #aba8a8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.text-time {
+    font-size: 12px;
+}
+
+.list--content-text {
+    background-color: #F2E3F3;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.list-item-content {
+    padding: 15px 5px;
+}
+
+.content__notification--list {
+    position: relative;
+}
+
+.CloseNotifi {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border: 0;
+    background-color: transparent;
+    padding: 0 8px;
+}
+
+.BirdList__button .btn--Account {
+    width: 100%;
+}
+
+.BirdList__item--avatar {
+    width: 150px;
+    height: 150px;
+    background-color: #D1C5DA;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px auto;
+}
+
+
+.BirdList__item {
+    background-color: #F9F9F9;
+    padding: 30px 0;
+    text-align: center;
+    margin: 15px 0;
+    border-radius: 10px;
+    justify-content: center;
+    border: 1px solid #dedddd;
+
+}
+
+.BirdList {
+    padding: 15px;
+}
+
+.BirdRegister__BirdList .BirdList__item--info {
+    text-align: center;
+}
+
+.textarea-input {
+    height: 150px;
+}
+
+.BirdRegister__groupInput .BirdList__item--info {
+    text-align: end;
+}
+
+.BirdRegister__groupInput .tour--info-input {
+    padding: 15px 10px;
+}
+
+.BirdRegister {
+    padding: 20px;
+}
+
+.BirdList-Detail {
+    overflow-y: scroll;
+
+}
+
+.BirdList-Detail__item {
+    height: 1000px;
+    width: 800px;
+    background-color: #ffffff;
+    margin: 50px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Detail__item {
+    padding: 50px 20px 10px;
+}

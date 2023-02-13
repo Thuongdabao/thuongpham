@@ -1,0 +1,79 @@
+.client-header-bg {
+    background-image: url("/src/assets/img/client/homeBg1.png");
+}
+.way-of-bird-bg {
+    background-image: url("/src/assets/img/client/homeBg2.png");
+}
+.hot-tournament-bg{
+    background-image: url("/src/assets/img/client/homeBg2.png");
+    background-size: contain;
+    background-position: top left;
+
+}
+.benefit-layer-resp-bottom{
+    bottom: -46%;
+}
+.footer li{
+    line-height: 2;
+}
+.circle-resp{
+    width: 500px;
+    height: 500px;
+}
+.benefit-of-tournament{
+    background-image: url("/src/assets/img/client/homeBg4.png");
+}
+.bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home-header {
+    height: 80vh;
+}
+input:focus{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.position-md-absolute{
+    position: absolute!important;
+}
+.fs-1_4{
+    font-size: 15px;
+}
+.w-md-50{
+    width:70%;
+}
+.right--100{
+    right: -100px;
+}
+.bottom-100{
+    bottom: 30px!important;
+}
+@Media (max-width: 768px){
+    .position-md-absolute{
+        position: relative!important;
+    }
+    .w-md-50{
+        width: 50%;
+    }
+    .right--100{
+        right: auto;
+    }
+    .bottom-100{
+        bottom: auto;
+    }
+    .benefit-layer-resp-bottom{
+        bottom: -26%;
+    }
+    .circle-resp{
+        width: 320px;
+        height: 320px;
+    }
+}
+@media (max-width: 476px) {
+    .w-md-50{
+        width: 80%;
+    }
+}
